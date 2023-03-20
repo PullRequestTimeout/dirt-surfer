@@ -35,7 +35,7 @@ Milky Way
 Roger's
 Cemetery
 Happy Valley
-Spring Cleaning (upper)
+Spring Cleaning
 
 <!-- Neptune Creek -->
 COG
