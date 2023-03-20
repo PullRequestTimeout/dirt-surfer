@@ -1,120 +1,76 @@
 <!-- Rossland -->
 
 <!-- Downtown -->
-Doubletrack
-Centre Star Gulch (lower)
-Black Bear
-Drake's Connector
-Centre Star Gulch (upper)
-Nickleplate Connector
-LeRoi Hollow Trails
-Spokane
-Charlston Connector (lower)
-Charlston Connector (upper)
-Lower Columbia
-LeRoi Hollow Trails
-Upper Columbia
+Centre Star Gulch
 
 <!-- Malde Creek -->
-Whiskey
 Deer Park
-Crown Point (upper)
-Drake's (upper)
-Whiskey (upper)
-Whiskey on the Rocks
-Awesome
-Drake's (lower)
-Colonel Angus
+Drake's
 Doukhobor Draw
-The Flume
-Access
-Crown Point (lower)
 Tamarack
+Super Mega Death/Awesome
+Colonel Angus
+The Flume
+Whiskey on the Rocks
+Whiskey
 Cherry Poppins
-SMD
+Crown Point
 
 <!-- KC/Monte Christo -->
+Snake
+Techno Grind
+Stardust
+Yellow Submarine
+Ziggy's
+Full Monte
+Eddie J
+Kootenay Columbia
+Iron Colt
+North Star
+Pale Ale
 Coffee Run
 Green Door
 KC Ridge
-Cemetery (upper)
-Eddie J (upper)
-Eat my Brain
-Milky Way (lower)
-Snake
-Kootenay Columbia
-Pale Ale (lower)
-Stardust
-Eddie J (lower)
-Happy Valley
-Full Monte
-Milky Way (upper)
-Spring Cleaning (lower)
-Yellow Submarine
-Coffee Run Re-route
-Ziggy's
-Pale Ale (upper)
-Techno Grind
-Iron Colt
+Milky Way
 Roger's
-North Star
-Techno Grind Plus
-Techno Grind (old)
+Cemetery
+Happy Valley
 Spring Cleaning (upper)
 
 <!-- Neptune Creek -->
 COG
-Lower Mxiɬp Xewílh
-Biathlon Loop Connector
-BS
-Aqueduct
-Monticola
 Larch Ridge
+Monticola
+BS
+Mxiɬp Xewílh (Cedar Trail)
 
 <!-- Red Mountain -->
+Centennial Trail
+Drifter
+Moe's
 Miners
 Larry's
 Blue Elephant
-Top Up
-Dreadhead
-Top Down
-Ole Blue Eyes
-Moe's
-Redhead Access
-Redhead
-Drifter
-Pilgrim (upper)
 Redtop
-Paydirt
-Centennial Trail
+Redhead
+Dreadhead
+Pilgrim
+Top Up
+Top Down
 Gold Digger
-Redtop (lower)
-Redtop (upper)
-Dragon Tail (upper)
-Pilgrim (lower)
-Boneyard
-Dragon Tail (lower)
+Paydirt
+Dragon Tail
 Caldera
 
 <!-- Redstone -->
-Lower Switchback
+Switchback
 Railgrade
-Lower Green Door (closed)
 Bones
-Louie Joe (upper)
-Louie Joe (lower)
+Louie Joe
 Rubberhead
-Cemetery (lower)
-Upper Switchback
-LeRoi Hollow Trails
-Gibbard's Access
 
 <!-- Rossland Range -->
-Old Glory Trail (lower)
+Old Glory Trail
 Upper Mxiɬp Xewílh (Cedar Trail)
 The Dewdney Trail
-Accessible Trail
-Nancy Greene Lake Loop
-Old Glory Trail (lower)
 Plewman Trail
-Upper Mxiɬp Xewílh (Cedar Trail)
