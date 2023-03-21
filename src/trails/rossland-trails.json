@@ -1,6 +1,6 @@
 [
     {
-        "trail-name": "Drake's",
+        "trailName": "Drake's",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -8,14 +8,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "950",
         "aspect": "North",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Doukhobor Draw",
+        "trailName": "Doukhobor Draw",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -23,14 +23,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1050",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Tamarack",
+        "trailName": "Tamarack",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -38,14 +38,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1050",
         "aspect": "North",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Super Mega Death/Awesome",
+        "trailName": "Super Mega Death/Awesome",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -53,14 +53,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1200",
         "aspect": "West",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Colonel Angus",
+        "trailName": "Colonel Angus",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -68,14 +68,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1200",
         "aspect": "West",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "The Flume",
+        "trailName": "The Flume",
         "description": "",
         "difficulty": "Double Black",
         "composition": [
@@ -86,14 +86,14 @@
             "Rock rolls",
             "Drops"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1300",
         "aspect": "West",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Whiskey on the Rocks",
+        "trailName": "Whiskey on the Rocks",
         "description": "",
         "difficulty": "Double Black",
         "composition": [
@@ -103,14 +103,14 @@
             "Rock rolls",
             "Drops"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1225",
         "aspect": "North",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Whiskey",
+        "trailName": "Whiskey",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -122,14 +122,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "High",
         "elevation": "1150",
         "aspect": "West",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Cherry Poppins",
+        "trailName": "Cherry Poppins",
         "description": "",
         "difficulty": "Double Black",
         "composition": [
@@ -141,14 +141,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1200",
         "aspect": "North",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Crown Point",
+        "trailName": "Crown Point",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -159,14 +159,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1200",
         "aspect": "North",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Snake",
+        "trailName": "Snake",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -177,14 +177,14 @@
             "Rock rolls",
             "Drops"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1250",
         "aspect": "South",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Techno Grind",
+        "trailName": "Techno Grind",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -193,14 +193,14 @@
             "Roots",
             "Rock rolls"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1250",
         "aspect": "North",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Stardust",
+        "trailName": "Stardust",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -211,14 +211,14 @@
             "Rock rolls",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1200",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Yellow Submarine",
+        "trailName": "Yellow Submarine",
         "description": "",
         "difficulty": "Double Black",
         "composition": [
@@ -229,14 +229,14 @@
             "Rock rolls",
             "Drops"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1250",
         "aspect": "West",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Ziggy's",
+        "trailName": "Ziggy's",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -248,14 +248,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1250",
         "aspect": "South",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Full Monte",
+        "trailName": "Full Monte",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -267,14 +267,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1225",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Eddie J",
+        "trailName": "Eddie J",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -283,14 +283,14 @@
             "Roots",
             "Rock rolls"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "High",
         "elevation": "1250",
         "aspect": "South",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Kootenay Columbia",
+        "trailName": "Kootenay Columbia",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -298,14 +298,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "High",
         "elevation": "1200",
         "aspect": "South",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Iron Colt",
+        "trailName": "Iron Colt",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -316,14 +316,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1150",
         "aspect": "South",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "North Star",
+        "trailName": "North Star",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -331,14 +331,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1150",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Pale Ale",
+        "trailName": "Pale Ale",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -349,14 +349,14 @@
             "Rock rolls",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Moderate",
         "elevation": "1250",
         "aspect": "North",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Coffee Run",
+        "trailName": "Coffee Run",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -365,14 +365,14 @@
             "Roots",
             "Rock rolls"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1050",
         "aspect": "North",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Green Door",
+        "trailName": "Green Door",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -382,14 +382,14 @@
             "Wooden features",
             "Rock rolls"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "High",
         "elevation": "1025",
         "aspect": "South",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "KC Ridge",
+        "trailName": "KC Ridge",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -400,14 +400,14 @@
             "Rock rolls",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1225",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Milky Way",
+        "trailName": "Milky Way",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -418,28 +418,28 @@
             "Rock rolls",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "High",
         "elevation": "1125",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Roger's",
+        "trailName": "Roger's",
         "description": "",
         "difficulty": "Blue",
         "composition": [
             "Dirt",
             "Rocks"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "975",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Cemetery",
+        "trailName": "Cemetery",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -448,28 +448,28 @@
             "Roots",
             "Jumps"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1025",
         "aspect": "South",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Happy Valley",
+        "trailName": "Happy Valley",
         "description": "",
         "difficulty": "",
         "composition": [
             "Dirt",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "975",
         "aspect": "South",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Spring Cleaning",
+        "trailName": "Spring Cleaning",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -481,14 +481,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1025",
         "aspect": "South",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "COG",
+        "trailName": "COG",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -497,14 +497,14 @@
             "Roots",
             "Wooden features"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1375",
         "aspect": "East",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Larch Ridge",
+        "trailName": "Larch Ridge",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -513,14 +513,14 @@
             "Roots",
             "Rock rolls"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1500",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Monticola",
+        "trailName": "Monticola",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -529,14 +529,14 @@
             "Roots",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1500",
         "aspect": "South",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "BS",
+        "trailName": "BS",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -547,28 +547,28 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "1475",
         "aspect": "South",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Mxiɬp Xewílh (Cedar Trail)",
+        "trailName": "Mxiɬp Xewílh (Cedar Trail)",
         "description": "",
         "difficulty": "Green",
         "composition": [
             "Dirt",
             "Rocks"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1550",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Drifter",
+        "trailName": "Drifter",
         "description": "",
         "difficulty": "Green",
         "composition": [
@@ -576,28 +576,28 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1140",
         "aspect": "West",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Moe's",
+        "trailName": "Moe's",
         "description": "",
         "difficulty": "Green",
         "composition": [
             "Dirt",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1150",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Miners",
+        "trailName": "Miners",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -605,14 +605,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1325",
         "aspect": "East",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Larry's",
+        "trailName": "Larry's",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -620,14 +620,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "1175",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Blue Elephant",
+        "trailName": "Blue Elephant",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -637,14 +637,14 @@
             "Wooden features",
             "Rock rolls"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "High",
         "elevation": "1200",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Redtop",
+        "trailName": "Redtop",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -652,14 +652,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "High",
         "elevation": "1600",
         "aspect": "South",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Redhead",
+        "trailName": "Redhead",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -671,14 +671,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Moderate",
         "elevation": "1550",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Dreadhead",
+        "trailName": "Dreadhead",
         "description": "",
         "difficulty": "Double Black",
         "composition": [
@@ -688,14 +688,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "Low",
         "elevation": "1575",
         "aspect": "North",
-        "trail-type": "Tech"
+        "trailType": "Tech"
     },
     {
-        "trail-name": "Pilgrim",
+        "trailName": "Pilgrim",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -703,14 +703,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "High",
         "elevation": "1400",
         "aspect": "East",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Top Up",
+        "trailName": "Top Up",
         "description": "",
         "difficulty": "Green",
         "composition": [
@@ -718,14 +718,14 @@
             "Rocks",
             "Roots"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1265",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Top Down",
+        "trailName": "Top Down",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -734,14 +734,14 @@
             "Roots",
             "Rock rolls"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "1250",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "Gold Digger",
+        "trailName": "Gold Digger",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -752,14 +752,14 @@
             "Rock rolls",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1400",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Paydirt",
+        "trailName": "Paydirt",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -771,14 +771,14 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "1350",
         "aspect": "East",
-        "trail-type": "AM"
+        "trailType": "AM"
     },
     {
-        "trail-name": "Dragon Tail",
+        "trailName": "Dragon Tail",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -786,28 +786,28 @@
             "Rocks",
             "Jumps"
         ],
-        "weather-reactivity": "High",
+        "weatherReactivity": "High",
         "traffic": "High",
         "elevation": "1350",
         "aspect": "East",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Railgrade",
+        "trailName": "Railgrade",
         "description": "",
         "difficulty": "Green",
         "composition": [
             "Dirt",
             "Rocks"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "975",
         "aspect": "West",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Bones",
+        "trailName": "Bones",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -817,14 +817,14 @@
             "Wooden features",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "850",
         "aspect": "North",
-        "trail-type": "Flow"
+        "trailType": "Flow"
     },
     {
-        "trail-name": "Louie Joe",
+        "trailName": "Louie Joe",
         "description": "",
         "difficulty": "Green",
         "composition": [
@@ -833,14 +833,14 @@
             "Roots",
             "Wooden features"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Moderate",
         "elevation": "950",
         "aspect": "East",
-        "trail-type": "Climb"
+        "trailType": "Climb"
     },
     {
-        "trail-name": "Rubberhead",
+        "trailName": "Rubberhead",
         "description": "",
         "difficulty": "Green",
         "composition": [
@@ -849,14 +849,14 @@
             "Roots",
             "Wooden features"
         ],
-        "weather-reactivity": "Low",
+        "weatherReactivity": "Low",
         "traffic": "Low",
         "elevation": "875",
         "aspect": "East",
-        "trail-type": "XC"
+        "trailType": "XC"
     },
     {
-        "trail-name": "The Dewdney Trail",
+        "trailName": "The Dewdney Trail",
         "description": "",
         "difficulty": "Blue",
         "composition": [
@@ -865,14 +865,14 @@
             "Roots",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Low",
         "elevation": "",
         "aspect": "",
-        "trail-type": ""
+        "trailType": ""
     },
     {
-        "trail-name": "Seven Summits",
+        "trailName": "Seven Summits",
         "description": "",
         "difficulty": "Black",
         "composition": [
@@ -884,10 +884,10 @@
             "Drops",
             "Jumps"
         ],
-        "weather-reactivity": "Moderate",
+        "weatherReactivity": "Moderate",
         "traffic": "Moderate",
         "elevation": "2200",
         "aspect": "North",
-        "trail-type": "AM"
+        "trailType": "AM"
     }
 ]
