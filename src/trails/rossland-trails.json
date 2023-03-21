@@ -793,102 +793,101 @@
         "trail-type": "Flow"
     },
     {
-        "trail-name": "Switchback",
-        "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
-    },
-    {
         "trail-name": "Railgrade",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Green",
+        "composition": [
+            "Dirt",
+            "Rocks"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "975",
+        "aspect": "West",
+        "trail-type": "Climb"
     },
     {
         "trail-name": "Bones",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "850",
+        "aspect": "North",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Louie Joe",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Green",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Moderate",
+        "elevation": "950",
+        "aspect": "East",
+        "trail-type": "Climb"
     },
     {
         "trail-name": "Rubberhead",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
-    },
-    {
-        "trail-name": "Old Glory Trail",
-        "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
-    },
-    {
-        "trail-name": "Upper Mxiɬp Xewílh (Cedar Trail)",
-        "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Green",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "875",
+        "aspect": "East",
+        "trail-type": "XC"
     },
     {
         "trail-name": "The Dewdney Trail",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
         "elevation": "",
         "aspect": "",
         "trail-type": ""
     },
     {
-        "trail-name": "Plewman Trail",
+        "trail-name": "Seven Summits",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Moderate",
+        "elevation": "2200",
+        "aspect": "North",
+        "trail-type": "AM"
     }
 ]
