@@ -2,7 +2,7 @@
 
 ## Trail Data
 
-Trail data is primarily pulled from local maps and information, first-hand knowledge, and [Trailforks](https://www.trailforks.com/). Each of the JSON files can be called with the fetch api to the src/trails  directory (this may be moved to an external api in the future purely for learning purposes), eg "fetch("./src/trails/rossland-trails.json")".
+Trail data is primarily pulled from local maps and information, first-hand knowledge, and [Trailforks](https://www.trailforks.com/). Each of the JSON files can be called with the fetch api to the src/trails  directory (this may be moved to an external api in the future purely for learning purposes), eg "fetch("./src/trails/rossland-trails.json")". Keys are in kebab case rather than camel case to denote that it is coming from JSON.
 
 ### JSON Key and Value Sets
 
@@ -11,10 +11,10 @@ Trail data is primarily pulled from local maps and information, first-hand knowl
 "description" at this point is an empty string. This will either be hardcoded into the JSON over time, or programmatically generated into the app with the OpenAI API. Placeholder key for now.
 
 "difficulty" returns one of the four accepted mountainbiking difficulty ratings in North America:
-- "Green" is easiest or beginners
-- "Blue" is intermediate
-- "Black" is advanced
-- "Double Black" is very advanced
+- "Green" is easiest or beginners.
+- "Blue" is intermediate.
+- "Black" is advanced.
+- "Double Black" is very advanced.
 
 "composition" returns an array and can return any of the following values:
 - "Dirt"
@@ -23,13 +23,14 @@ Trail data is primarily pulled from local maps and information, first-hand knowl
 - "Wooden features"
 - "Rock rolls"
 - "Drops"
+- "Jumps"
 
-"weather-reactivity" and "traffic" both return one of three values:
+"weather-reactivity" is defined by the question "how challenging is the trail to ride after either a recent rain event, or no rain events for quite a while?" and "traffic" is defined by popularity and usage. Both return one of three values:
 - "Low"
 - "Moderate"
 - "High"
 
-"elevation" returns an integer value, denoting meters above sealevel.
+"elevation" refers to the highest elevation of the trail, and returns an integer value rounded to the nearest 25, denoting meters above sealevel.
 
 "aspect" refers to the side of the mountain that the trail primarly lies upon, and returns one of the four points on the compass:
 - "North"
@@ -38,9 +39,11 @@ Trail data is primarily pulled from local maps and information, first-hand knowl
 - "West"
 
 "trail-type" refers to the style of mountain bike riding that the trail primarily focuses on and returns one of the following values:
-- "XC" is cross-country
-- "Flow" is more speed focused, often including smoother trail and jumps
-- "Tech" is slower paced, often steeper, and involves technical features 
+- "XC" is cross-country.
+- "Flow" is more speed focused, often including smoother trail and jumps.
+- "Tech" is slower paced, often steeper, and involves technical features.
+- "AM" is all-mountain, and contains elements of all riding types.
+- "Climb" is primarily uphill use only.
 
 An example trail object is as follows:
 
