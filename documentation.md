@@ -6,17 +6,17 @@ Trail data is primarily pulled from local maps and information, first-hand knowl
 
 ### JSON Key and Value Sets
 
-"Trail name" returns a string value of the grammatically correct name of the trail.
+"trail-name" returns a string value of the grammatically correct name of the trail.
 
-"Description" at this point is an empty string. This will either be hardcoded into the JSON over time, or programmatically generated into the app with the OpenAI API. Placeholder key for now.
+"description" at this point is an empty string. This will either be hardcoded into the JSON over time, or programmatically generated into the app with the OpenAI API. Placeholder key for now.
 
-"Difficulty" returns one of the four accepted mountainbiking difficulty ratings in North America:
+"difficulty" returns one of the four accepted mountainbiking difficulty ratings in North America:
 - "Green" is easiest or beginners
 - "Blue" is intermediate
 - "Black" is advanced
 - "Double Black" is very advanced
 
-"Composition" returns an array and can return any of the following values:
+"composition" returns an array and can return any of the following values:
 - "Dirt"
 - "Rocks"
 - "Roots"
@@ -24,20 +24,20 @@ Trail data is primarily pulled from local maps and information, first-hand knowl
 - "Rock rolls"
 - "Drops"
 
-"Weather Reactivity" and "Traffic" both return one of three values:
+"weather-reactivity" and "traffic" both return one of three values:
 - "Low"
 - "Moderate"
 - "High"
 
-"Elevation" returns an integer value, denoting meters above sealevel.
+"elevation" returns an integer value, denoting meters above sealevel.
 
-"Aspect" refers to the side of the mountain that the trail primarly lies upon, and returns one of the four points on the compass:
+"aspect" refers to the side of the mountain that the trail primarly lies upon, and returns one of the four points on the compass:
 - "North"
 - "East"
 - "South"
 - "West"
 
-"Trail type" refers to the style of mountain bike riding that the trail primarily focuses on and returns one of the following values:
+"trail-type" refers to the style of mountain bike riding that the trail primarily focuses on and returns one of the following values:
 - "XC" is cross-country
 - "Flow" is more speed focused, often including smoother trail and jumps
 - "Tech" is slower paced, often steeper, and involves technical features 
