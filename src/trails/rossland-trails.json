@@ -358,90 +358,134 @@
     {
         "trail-name": "Coffee Run",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Rock rolls"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "1050",
+        "aspect": "North",
+        "trail-type": "XC"
     },
     {
         "trail-name": "Green Door",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "High",
+        "elevation": "1025",
+        "aspect": "South",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "KC Ridge",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Jumps"
+        ],
+        "weather-reactivity": "High",
+        "traffic": "Low",
+        "elevation": "1225",
+        "aspect": "East",
+        "trail-type": "AM"
     },
     {
         "trail-name": "Milky Way",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "High",
+        "elevation": "1125",
+        "aspect": "East",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Roger's",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "975",
+        "aspect": "East",
+        "trail-type": "XC"
     },
     {
         "trail-name": "Cemetery",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Jumps"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Moderate",
+        "elevation": "1025",
+        "aspect": "South",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Happy Valley",
         "description": "",
         "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "composition": [
+            "Dirt",
+            "Roots"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "975",
+        "aspect": "South",
+        "trail-type": "Climb"
     },
     {
         "trail-name": "Spring Cleaning",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops",
+            "Jumps"
+        ],
+        "weather-reactivity": "High",
+        "traffic": "Low",
+        "elevation": "1025",
+        "aspect": "South",
+        "trail-type": "Tech"
     },
     {
         "trail-name": "COG",
