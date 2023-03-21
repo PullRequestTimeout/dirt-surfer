@@ -168,123 +168,192 @@
     {
         "trail-name": "Snake",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "1250",
+        "aspect": "South",
+        "trail-type": "Tech"
     },
     {
         "trail-name": "Techno Grind",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Rock rolls"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Moderate",
+        "elevation": "1250",
+        "aspect": "North",
+        "trail-type": "XC"
     },
     {
         "trail-name": "Stardust",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "1200",
+        "aspect": "East",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Yellow Submarine",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Double Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops"
+        ],
+        "weather-reactivity": "High",
+        "traffic": "Low",
+        "elevation": "1250",
+        "aspect": "West",
+        "trail-type": "Tech"
     },
     {
         "trail-name": "Ziggy's",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "1250",
+        "aspect": "South",
+        "trail-type": "AM"
     },
     {
         "trail-name": "Full Monte",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Drops",
+            "Jumps"
+        ],
+        "weather-reactivity": "Moderate",
+        "traffic": "Low",
+        "elevation": "1225",
+        "aspect": "East",
+        "trail-type": "AM"
     },
     {
         "trail-name": "Eddie J",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Rock rolls"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "High",
+        "elevation": "1250",
+        "aspect": "South",
+        "trail-type": "AM"
     },
     {
         "trail-name": "Kootenay Columbia",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "High",
+        "elevation": "1200",
+        "aspect": "South",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Iron Colt",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Drops",
+            "Jumps"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "1150",
+        "aspect": "South",
+        "trail-type": "AM"
     },
     {
         "trail-name": "North Star",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Blue",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots"
+        ],
+        "weather-reactivity": "Low",
+        "traffic": "Low",
+        "elevation": "1150",
+        "aspect": "East",
+        "trail-type": "Flow"
     },
     {
         "trail-name": "Pale Ale",
         "description": "",
-        "difficulty": "",
-        "composition": "",
-        "weather-reactivity": "",
-        "traffic": "",
-        "elevation": "",
-        "aspect": "",
-        "trail-type": ""
+        "difficulty": "Black",
+        "composition": [
+            "Dirt",
+            "Rocks",
+            "Roots",
+            "Wooden features",
+            "Rock rolls",
+            "Jumps"
+        ],
+        "weather-reactivity": "High",
+        "traffic": "Moderate",
+        "elevation": "1250",
+        "aspect": "North",
+        "trail-type": "Tech"
     },
     {
         "trail-name": "Coffee Run",
