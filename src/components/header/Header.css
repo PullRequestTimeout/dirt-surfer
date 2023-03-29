@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+/* .header>a>img { */
+/* } */
+
+.header>select,
+.header>button {
+    justify-self: end;
+}

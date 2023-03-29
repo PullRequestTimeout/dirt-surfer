@@ -1,0 +1,24 @@
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: drop-shadow(1px 1px 0.2rem #303030);
+}
+
+button svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover svg {
+    transform: rotate(45deg);
+}
+
+button:active svg {
+    transform: rotate(45deg) scale(1.1);
+}
