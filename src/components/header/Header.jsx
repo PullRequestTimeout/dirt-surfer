@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import "./Header.css"
-import LocationSelector from "../location-selector/LocationSelector"
 import logo from "../../assets/dirtsurfer-logo.svg"
 
-const Header = () => {
+const Header = ({ onChange }) => {
     return (
         <header>
             <a href="/">
                 <img src={logo} alt="Dirt Surfer logo" />
             </a>
-            <LocationSelector />
+            <select onChange={onChange}>
+                <option value="Rossland">Rossland</option>
+                <option value="Trail">Trail</option>
+                <option value="Castlegar">Castlegar</option>
+            </select>
         </header>
     )
 }
