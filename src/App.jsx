@@ -14,9 +14,14 @@ function App() {
     trailSource = event.target.value.toLowerCase()
   }
 
+  // const handleSettingsPanel = () => {
+
+  // }  
+
   return (
     <main className="App">
-      <Header selectedCity={selectedCity} onChange={handleCityChange} />
+      {/* <Header selectedCity={selectedCity} onChange={handleCityChange} settingsButton={handleSettingsPanel} /> */}
+      <Header onChange={handleCityChange} />
       <TrailList src={trailSource} />
     </main>
   )
