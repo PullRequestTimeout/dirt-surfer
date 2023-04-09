@@ -1,29 +1,42 @@
-import React, { useState } from 'react'
-import './App.css'
+import React, { useEffect, useState } from 'react'
 import Header from './components/header/Header'
 import TrailList from './components/trail-list/TrailList'
+import { ThemeProvider } from '@emotion/react'
+import { CssBaseline, createTheme } from '@mui/material'
 
 function App() {
 
-  const [selectedCity, setSelectedCity] = useState("Rossland")
-  let trailSource = selectedCity.toLowerCase()
+  // CSS Theme
+  const theme = createTheme({
+    palette: {
+      mode: "dark"
+    }
+  })
 
   // Dynamically adjusts fetch request based on selected option in dropdown. This will be moved to an external API eventually.
-  const handleCityChange = (event) => {
-    setSelectedCity(event.target.value)
-    trailSource = event.target.value.toLowerCase()
+  const [selectedCity, setSelectedCity] = useState("")
+  let trailSource = selectedCity.toLowerCase()
+
+  const handleCityChange = (city) => {
+    setSelectedCity(city)
+    trailSource = city.toLowerCase()
   }
 
-  // const handleSettingsPanel = () => {
 
-  // }  
+  // Every time selectedCity changes, runs internal function
+  useEffect(() => {
+    console.log(selectedCity)
+  }, [selectedCity])
 
   return (
-    <main className="App">
-      {/* <Header selectedCity={selectedCity} onChange={handleCityChange} settingsButton={handleSettingsPanel} /> */}
-      <Header onChange={handleCityChange} />
-      <TrailList src={trailSource} />
-    </main>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <main className="App">
+
+        <Header handleCityChange={handleCityChange} />
+        <TrailList src={trailSource} />
+      </main>
+    </ThemeProvider>
   )
 }
 

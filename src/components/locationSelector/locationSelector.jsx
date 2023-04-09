@@ -1,4 +1,6 @@
 import * as React from 'react';
+// import { useEffect, useState } from 'react'
+
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 // import FormHelperText from '@mui/material/FormHelperText';
@@ -6,12 +8,16 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import './locationSelector.css'
 
-export default function LocationSelector() {
-    const [location, setLocation] = React.useState('Rossland');
+export default function LocationSelector({ handleCityChange }) {
+    const [location, setLocation] = React.useState("Rossland");
 
     const handleChange = (event) => {
         setLocation(event.target.value);
     };
+
+    React.useEffect(() => {
+        handleCityChange(location);
+    }, [location])
 
     return (
         <FormControl sx={{
