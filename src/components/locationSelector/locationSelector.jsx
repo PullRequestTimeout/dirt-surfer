@@ -3,10 +3,8 @@ import * as React from 'react';
 
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-// import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import './locationSelector.css'
 
 export default function LocationSelector({ handleCityChange }) {
     const [location, setLocation] = React.useState("Rossland");
@@ -21,13 +19,13 @@ export default function LocationSelector({ handleCityChange }) {
 
     return (
         <FormControl sx={{
-            m: 1, minWidth: 160
+            m: 2,
+            minWidth: 160
         }}>
-            <InputLabel id="demo-simple-select-helper-label">Location</InputLabel>
+            <InputLabel id="location-selector-label">Location</InputLabel>
             <Select
-                className="location-selector"
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
+                labelId="location-selector-label"
+                id="location-selctor"
                 value={location}
                 label="Location"
                 onChange={handleChange}
