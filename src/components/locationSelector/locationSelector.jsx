@@ -1,19 +1,14 @@
-import * as React from 'react';
-// import { useEffect, useState } from 'react'
-
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import React, { useEffect, useState } from 'react';
+import { InputLabel, MenuItem, FormControl, Select } from '@mui/material'
 
 export default function LocationSelector({ handleCityChange }) {
-    const [location, setLocation] = React.useState("Rossland");
+    const [location, setLocation] = useState("Rossland");
 
     const handleChange = (event) => {
         setLocation(event.target.value);
     };
 
-    React.useEffect(() => {
+    useEffect(() => {
         handleCityChange(location);
     }, [location])
 

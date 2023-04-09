@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-// import Header from './components/Header/Header'
+import { ThemeProvider } from '@emotion/react'
+import { CssBaseline, Typography, createTheme, Container } from '@mui/material'
 import Header from './components/header/Header'
 import TrailList from './components/trailList/TrailList'
-import { ThemeProvider } from '@emotion/react'
-import { CssBaseline, Typography, createTheme } from '@mui/material'
+import WeatherWidget from './components/weatherWidget/WeatherWidget'
+
 
 function App() {
   // CSS Theme
@@ -32,8 +33,10 @@ function App() {
       <CssBaseline />
       <main className="App">
         <Header handleCityChange={handleCityChange} />
-        <Typography></Typography>
-
+        <Container>
+          <Typography variant='h3' component='h3'>Forecast</Typography>
+          <WeatherWidget src={trailSource} />
+        </Container>
         <Typography></Typography>
         <TrailList src={trailSource} />
       </main>
