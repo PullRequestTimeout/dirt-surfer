@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from '@emotion/react'
 import { CssBaseline, Typography, createTheme, Container } from '@mui/material'
 import Header from './components/header/Header'
-import TrailList from './components/trailList/TrailList'
+import TrailList from './components/TrailList/TrailList'
 import WeatherWidget from './components/weatherWidget/WeatherWidget'
 
 
@@ -34,11 +34,13 @@ function App() {
       <main className="App">
         <Header handleCityChange={handleCityChange} />
         <Container>
-          <Typography variant='h3' component='h3'>Forecast</Typography>
+          <Typography variant='h6' component='h6'>Forecast</Typography>
           <WeatherWidget src={trailSource} />
         </Container>
-        <Typography></Typography>
-        <TrailList src={trailSource} />
+        <Container>
+          <Typography variant='h6' component='h6'>Trails</Typography>
+          <TrailList src={trailSource} />
+        </Container>
       </main>
     </ThemeProvider>
   )
