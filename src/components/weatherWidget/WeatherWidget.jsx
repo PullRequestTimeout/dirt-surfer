@@ -14,6 +14,7 @@ export default function WeatherWidget({ src }) {
             justifyContent: 'space-evenly'
         }}>
             {/* Loop over the last 5 days of the weather data and insert icons and data into components, with divider below in between */}
+            {/* Call a new date object and loop forward through the week to assign names */}
         </Paper>
     )
 }
