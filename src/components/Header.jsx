@@ -1,7 +1,7 @@
 import React from 'react'
 import { AppBar, Box, Toolbar, Typography, IconButton } from '@mui/material'
 import SettingsIcon from '@mui/icons-material/Settings'
-import LocationSelector from './locationSelector'
+import LocationSelector from './LocationSelector'
 
 export default function Header({ handleCityChange }) {
     return (
