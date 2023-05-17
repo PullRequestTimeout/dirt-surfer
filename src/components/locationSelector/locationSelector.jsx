@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { InputLabel, MenuItem, FormControl, Select } from '@mui/material'
 
 export default function LocationSelector({ handleCityChange }) {
-    const [location, setLocation] = useState("Rossland");
+    const [location, setLocation] = useState("rossland");
 
     const handleChange = (event) => {
         setLocation(event.target.value);
@@ -26,9 +26,9 @@ export default function LocationSelector({ handleCityChange }) {
                 onChange={handleChange}
 
             >
-                <MenuItem value={"Rossland"}>Rossland</MenuItem>
-                <MenuItem value={"Trail"}>Trail</MenuItem>
-                <MenuItem value={"Castlegar"}>Castlegar</MenuItem>
+                <MenuItem value={"rossland"}>Rossland</MenuItem>
+                <MenuItem value={"trail"}>Trail</MenuItem>
+                <MenuItem value={"castlegar"}>Castlegar</MenuItem>
             </Select>
         </FormControl >
     );

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from '@emotion/react'
 import { CssBaseline, Typography, createTheme, Container } from '@mui/material'
 import Header from './components/header/Header'
-import TrailList from './components/TrailList/TrailList'
+import TrailList from './components/trailList/TrailList'
 import WeatherWidget from './components/weatherWidget/WeatherWidget'
 
 
@@ -15,31 +15,26 @@ function App() {
   })
 
   // Dynamically adjusts fetch request based on selected option in dropdown. This will be moved to an external API eventually.
-  const [selectedCity, setSelectedCity] = useState("Rossland")
-  let trailSource = selectedCity.toLowerCase()
+  const [selectedCity, setSelectedCity] = useState("rossland")
   // Raised state from select value within the Header element
   const handleCityChange = (city) => {
     setSelectedCity(city)
-    trailSource = city.toLowerCase()
   }
-
-  // Every time selectedCity changes, runs internal function
-  useEffect(() => {
-    console.log(selectedCity)
-  }, [selectedCity])
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <main className="App">
         <Header handleCityChange={handleCityChange} />
+        
         <Container>
           <Typography variant='h6' component='h6'>Forecast</Typography>
-          <WeatherWidget src={trailSource} />
+          <WeatherWidget src={selectedCity} />
         </Container>
+        
         <Container>
           <Typography variant='h6' component='h6'>Trails</Typography>
-          <TrailList src={trailSource} />
+          <TrailList src={selectedCity} />
         </Container>
       </main>
     </ThemeProvider>
