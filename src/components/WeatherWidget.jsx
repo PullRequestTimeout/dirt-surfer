@@ -1,5 +1,5 @@
 import React from "react";
-import weatherDataCall from "../../utils/weatherCall.js";
+import weatherDataCall from "../utils/weatherCall.js";
 import { Divider, Paper } from '@mui/material'
 
 export default function WeatherWidget({ src }) {

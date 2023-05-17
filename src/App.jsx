@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from '@emotion/react'
 import { CssBaseline, Typography, createTheme, Container } from '@mui/material'
-import Header from './components/header/Header'
-import TrailList from './components/trailList/TrailList'
-import WeatherWidget from './components/weatherWidget/WeatherWidget'
+import Header from './components/Header'
+import TrailList from './components/TrailList'
+import WeatherWidget from './components/WeatherWidget'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     }
   })
 
-  // Dynamically adjusts fetch request based on selected option in dropdown. This will be moved to an external API eventually.
+  // Dynamically adjusts fetch request based on selected option in dropdown.
   const [selectedCity, setSelectedCity] = useState("rossland")
   // Raised state from select value within the Header element
   const handleCityChange = (city) => {
