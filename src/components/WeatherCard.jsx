@@ -2,7 +2,7 @@ import React from "react"
 import { Card, Typography } from "@mui/material"
 import WeatherIcon from "./WeatherIcon"
 
-export default function WeatherCard({weatherCode, tempMin, tempMax}) {
+export default function WeatherCard({weatherCode, tempMin, tempMax, day}) {
     return (
         <Card sx={{
             display: 'flex',
@@ -12,8 +12,9 @@ export default function WeatherCard({weatherCode, tempMin, tempMax}) {
             p: 3,
             font: 20,
         }}>
-            <WeatherIcon weatherCode={weatherCode} />
-            <Typography>{Math.trunc(tempMin)} / {Math.trunc(tempMax)}</Typography>
+            <WeatherIcon size={80} color={"#fff"} weatherCode={weatherCode} />
+            <Typography sx={{fontSize: 18}}>{Math.trunc(tempMin)}°C / {Math.trunc(tempMax)}°C</Typography>
+            <Typography>{day}</Typography>
         </Card>
     )
 }
