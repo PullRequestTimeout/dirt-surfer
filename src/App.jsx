@@ -43,7 +43,16 @@ function App() {
         
         <Container>
           <Typography variant='h6' component='h6'>Trails</Typography>
-          <TrailList src={selectedCity} />
+          <Paper elevation={3} sx={{
+                flexGrow: 1,
+                display: 'flex',
+                flexDirection: 'column',
+                placeItems: 'center',
+                justifyContent: 'space-between',
+                p: 4,
+            }}>
+            <TrailList src={selectedCity} />
+          </Paper>
         </Container>
       </main>
     </ThemeProvider>
