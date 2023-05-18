@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import weatherDataCall from "../utils/weatherCall.js";
 import WeatherCard from "./WeatherCard.jsx";
-import { Divider, Paper, CircularProgress, Box } from '@mui/material'
+import { CircularProgress, Box } from '@mui/material'
 
 export default function WeatherWidget({ src }) {
     // console.log("Weather Source: " + src)
     const [weatherData, setWeatherData] = useState({})
+
+    const currentDay = new Date().getDay();
 
     useEffect(() => {
         fetch(`https://api.open-meteo.com/v1/forecast?latitude=${locationCoords(src).lat}&longitude=${locationCoords(src).long}&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=America%2FLos_Angeles`)
@@ -40,7 +41,7 @@ export default function WeatherWidget({ src }) {
         return (
             formattedWeatherData.map((day, index) => {
                 return (
-                    <WeatherCard key={index} weatherCode={day.weathercode} tempMin={day.min_temperature} tempMax={day.max_temperature} />
+                    <WeatherCard key={index} weatherCode={day.weathercode} tempMin={day.min_temperature} tempMax={day.max_temperature} day={getFutureDay(currentDay, index)} />
                 )
             })
         )
@@ -54,6 +55,7 @@ export default function WeatherWidget({ src }) {
     
 }
 
+// Coordinates needed to be added to this as the app scales.
 function locationCoords(location) {
     switch (location) {
         case "rossland":
@@ -74,4 +76,8 @@ function locationCoords(location) {
     }
 }
 
-{/* <Divider orientation="vertical" variant="middle" flexItem /> */ }
+function getFutureDay(currentDayIndex, index) {
+    const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const futureDayIndex = (currentDayIndex + index) % 7;
+    return daysOfWeek[futureDayIndex];
+}
