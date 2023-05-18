@@ -3,7 +3,6 @@ import WeatherCard from "./WeatherCard.jsx";
 import { CircularProgress, Box } from '@mui/material'
 
 export default function WeatherWidget({ src }) {
-    // console.log("Weather Source: " + src)
     const [weatherData, setWeatherData] = useState({})
 
     const currentDay = new Date().getDay();
