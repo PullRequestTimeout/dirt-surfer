@@ -1,4 +1,4 @@
-export default function weatherDataCall(location) {
+export default async function weatherDataCall(location) {
     function locationCoords(location) {
         switch (location) {
             case "rossland":
@@ -19,15 +19,15 @@ export default function weatherDataCall(location) {
         }
     }
 
-    fetch(
+    await fetch(
         `https://api.open-meteo.com/v1/forecast?latitude=${locationCoords(location).lat}&longitude=${
             locationCoords(location).long
-        }&daily=weathercode,temperature_2m_max,temperature_2m_min,rain_sum,snowfall_sum&past_days=14&timezone=America%2FLos_Angeles`
+        }&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=America%2FLos_Angeles`
     )
         .then((response) => response.json())
         .then((weatherData) => {
-            // console.log(weatherData.daily.weathercode[14])
-            console.log(weathercodeToDescription(weatherData.daily.weathercode[14]))
+            // console.log(weatherData.daily)
+            return weatherData
 
             function weathercodeToDescription(weatherCode) {
                 switch (weatherCode) {
