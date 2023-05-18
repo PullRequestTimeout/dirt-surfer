@@ -26,7 +26,6 @@ export default async function weatherDataCall(location) {
     )
         .then((response) => response.json())
         .then((weatherData) => {
-            // console.log(weatherData.daily)
             return weatherData
 
             function weathercodeToDescription(weatherCode) {
