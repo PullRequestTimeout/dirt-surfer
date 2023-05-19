@@ -17,7 +17,7 @@ export default function TrailList({ src }) {
         }})
         .then((res) => res.json())
         .then((data) => setTrailData(data))
-        .then(() => console.log(trailData))
+        // .then(() => console.log(trailData))
         .then(() => {
             fetch(`http://localhost:6969/forecasts/${src}`, {
                 method: "GET",
@@ -26,14 +26,22 @@ export default function TrailList({ src }) {
                 }})
                 .then((res) => res.json())
                 .then((data) => setForecastData(data))
-                .then(() => console.log(forecastData))
+                // .then(() => console.log(forecastData))
         })
     }, [src])
 
-    if (trailData.length > 0) {
+    if (trailData.length > 0  && forecastData.length > 0) {
+        // console.log(forecastData)
+        // Run a sorting function on the objects first
         return trailData.map((trail, index) => {
             // Replace this with a TrailCard component
-            return <h2>{trail.trailName}</h2>
+            return (
+                <>
+                    <h2>{trail.trailName}</h2>
+                    {/* This doesn't work every time for some reason */}
+                    <p>{forecastData[index].descriptiveForecast}</p>
+                </>
+            )
         })
     } else {
         return (
