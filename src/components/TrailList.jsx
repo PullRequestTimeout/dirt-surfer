@@ -2,23 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Box, CircularProgress } from '@mui/material'
 import TrailCard from "./TrailCard";
 
-
-// GPT function to sort keys, lets see if it works
-function sortByKey(array, key) {
-    return array.sort((a, b) => {
-      const valueA = a[key];
-      const valueB = b[key];
-  
-      if (valueA < valueB) {
-        return -1;
-      } else if (valueA > valueB) {
-        return 1;
-      } else {
-        return 0;
-      }
-    });
-}
-
 export default function TrailList({ src }) {
     const [trailData, setTrailData] = useState([])
     const [forecastData, setForecastData] = useState([])
@@ -50,7 +33,8 @@ export default function TrailList({ src }) {
         // Run a sorting function on the objects first
         return trailData.map((trail, index) => {
             return (
-                <TrailCard key={index} trailName={trail.trailName} difficulty={trail.difficulty} starRating={trail.starRating} description={trail.description} descriptiveForecast={forecastData[index].descriptiveForecast} />
+                <TrailCard key={index} trailName={trail.trailName} difficulty={trail.difficulty} starRating={trail.starRating} description={trail.description} descriptiveForecast={forecastData.find(({ trailName }) => trailName === `${trail.trailName
+                }`).descriptiveForecast} />
             )
         })
     } else {
