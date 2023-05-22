@@ -12,9 +12,9 @@ export default function WeatherCard({weatherCode, tempMin, tempMax, day}) {
             p: 3,
             font: 20,
         }}>
+            <Typography sx={{fontSize: 18}}>{day}</Typography>
             <WeatherIcon size={80} color={"#fff"} weatherCode={weatherCode} />
             <Typography sx={{fontSize: 18}}>{Math.trunc(tempMin)}°C / {Math.trunc(tempMax)}°C</Typography>
-            <Typography>{day}</Typography>
         </Card>
     )
 }

@@ -23,7 +23,7 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
     }
 
     return (
-        <Box width='400px'>
+        <Box width='49%'>
             <Card>
                 <CardHeader title={trailName} action={
                     <ExpandMore 

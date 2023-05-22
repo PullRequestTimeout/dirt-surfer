@@ -28,7 +28,7 @@ function App() {
         <Header handleCityChange={handleCityChange} />
         
         <Container>
-          <Typography variant='h6' component='h6'>Forecast</Typography>
+          <Typography sx={{m: '1rem 0'}} variant='h5' component='h6'>Forecast</Typography>
 
           <Paper elevation={3} sx={{
                 flexGrow: 1,
@@ -42,11 +42,13 @@ function App() {
         </Container>
         
         <Container>
-          <Typography variant='h6' component='h6'>Trails</Typography>
+          <Typography sx={{m: '1rem 0'}} variant='h5' component='h6'>Trails</Typography>
           <Paper elevation={3} sx={{
                 flexGrow: 1,
                 display: 'flex',
-                flexDirection: 'column',
+                flexWrap: 'wrap',
+                gap: 2,
+                // flexDirection: 'column',
                 placeItems: 'center',
                 justifyContent: 'space-between',
                 p: 4,
