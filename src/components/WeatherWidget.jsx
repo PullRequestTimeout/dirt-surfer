@@ -4,19 +4,21 @@ import { CircularProgress, Box } from '@mui/material'
 
 export default function WeatherWidget({ src }) {
     const [weatherData, setWeatherData] = useState({})
-
+    const [isLoading, setIsLoading] = useState(true)
     const currentDay = new Date().getDay();
 
     useEffect(() => {
+        setIsLoading(true)
         fetch(`https://api.open-meteo.com/v1/forecast?latitude=${locationCoords(src).lat}&longitude=${locationCoords(src).long}&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=America%2FLos_Angeles`)
             .then(res => res.json())
             .then(data => {
                 setWeatherData(data)
                 console.log(data.daily)
             })
+            .then(() => setIsLoading(false))
     }, [src])
 
-    if (Object.keys(weatherData).length > 0) {
+    if (!isLoading) {
 
         function formatWeatherData(data) {
             const result = []
