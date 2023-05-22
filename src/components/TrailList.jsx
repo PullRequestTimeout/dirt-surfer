@@ -7,10 +7,10 @@ export default function TrailList({ src }) {
     const [forecastData, setForecastData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
-    // This nested fetch is a workaround for the fact that the trail data and forecast data are stored in separate databases.
+    // This nested fetch is a workaround for the fact that the trail and forecast data are stored in separate databases.
     useEffect(() => {
         setIsLoading(true)
-        fetch(`http://localhost:6969/trails/${src}`, {
+        fetch(`http://127.0.0.1:6969/trails/${src}`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
@@ -18,7 +18,7 @@ export default function TrailList({ src }) {
         .then((res) => res.json())
         .then((data) => setTrailData(data))
         .then(() => {
-            fetch(`http://localhost:6969/forecasts/${src}`, {
+            fetch(`http://127.0.0.1:6969/forecasts/${src}`, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
