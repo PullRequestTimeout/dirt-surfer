@@ -25,16 +25,18 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
     return (
         <Box width='49%'>
             <Card>
-                <CardHeader title={trailName} action={
-                    <ExpandMore 
-                    expand={expanded}
-                    onClick={handleExpandClick}
-                    aria-expanded={expanded}
-                    aria-label="show more"
-                  >
-                        <ExpandMoreIcon aria-label="expand"/>
-                    </ExpandMore>
-                }></CardHeader>
+                <CardHeader
+                    title={trailName} 
+                    action={
+                        <ExpandMore 
+                        expand={expanded}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="show more">
+                            <ExpandMoreIcon aria-label="expand"/>
+                        </ExpandMore>
+                    }>
+                </CardHeader>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
                         <Typography paragraph fontWeight={'700'}>
