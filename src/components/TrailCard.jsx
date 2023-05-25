@@ -3,6 +3,10 @@ import { Box, Card, CardContent, CardHeader, Typography, IconButton, Collapse } 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import StarIcon from "@mui/icons-material/Star"
 import { styled } from "@mui/material/styles"
+import BlackIcon from "../assets/black-icon.svg"
+import BlueIcon from "../assets/blue-icon.svg"
+import GreenIcon from "../assets/green-icon.svg"
+import DoubleBlackIcon from "../assets/doubleblack-icon.svg"
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props
@@ -27,6 +31,19 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
         stars.push(<StarIcon key={i} />)
     }
 
+    const difficultyIcons = (num) => {
+        switch (num) {
+            case 1:
+                return <img src={GreenIcon} alt="Green" />
+            case 2:
+                return <img src={BlueIcon} alt="Blue" />
+            case 3:
+                return <img src={BlackIcon} alt="Black" />
+            case 4:
+                return <img src={DoubleBlackIcon} alt="Double Black" />
+        }
+    }
+
     return (
         <Box width="49%">
             <Card>
@@ -38,6 +55,7 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
                         </ExpandMore>
                     }
                     subheader={<Box display="flex">{stars}</Box>}
+                    avatar={difficultyIcons(difficulty)}
                 ></CardHeader>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
