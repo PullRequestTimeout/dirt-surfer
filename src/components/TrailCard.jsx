@@ -22,6 +22,11 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
         setExpanded(!expanded)
     }
 
+    const stars = []
+    for (let i = 0; i < starRating; i++) {
+        stars.push(<StarIcon key={i} />)
+    }
+
     return (
         <Box width="49%">
             <Card>
@@ -32,6 +37,7 @@ export default function TrailCard({ trailName, difficulty, starRating, descripti
                             <ExpandMoreIcon aria-label="expand" />
                         </ExpandMore>
                     }
+                    subheader={<Box display="flex">{stars}</Box>}
                 ></CardHeader>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
